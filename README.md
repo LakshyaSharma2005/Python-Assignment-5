@@ -49,16 +49,16 @@ Error: KeyError
 
 This Python program demonstrates how to **extract** a portion of a list and then **reverse** it using built-in Python functions.
 
+---
 
-
-## 📌 Features
+📌 Features
 
 * Creates a list of numbers from **1 to 10**.
 * Extracts the **first 5 elements** from the list using slicing.
 * Reverses the extracted elements using Python’s `reversed()` function.
 * Displays the original list, the extracted part, and the reversed extracted list.
 
-
+---
 
 📝 Code Explanation
 
@@ -72,27 +72,32 @@ print(f"Extracted first 5 elements: {first}")
 print(f"Reversed extracted elements: {reversed}")
 ```
 
+---
 
 ▶️ Sample Output
 
-
+```
 Original list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Extracted first 5 elements: [1, 2, 3, 4, 5]
 Reversed extracted elements: [5, 4, 3, 2, 1]
+```
 
+---
 
 📚 Concepts Used
 
-* List Slicing → `list[start:end]` extracts elements within a range.
-* Reversing → `reversed()` is a built-in function to reverse sequences.
-* Type Conversion → `list()` is used to convert the reversed object back to a list.
+* **List Slicing** → `list[start:end]` extracts elements within a range.
+* **Reversing** → `reversed()` is a built-in function to reverse sequences.
+* **Type Conversion** → `list()` is used to convert the reversed object back to a list.
 
+---
 
 🚀 How to Run
 
 1. Save the code in a file (e.g., `list_reverse.py`).
 2. Run in terminal:
 
+   ```bash
    python list_reverse.py
-   
+   ```
 
